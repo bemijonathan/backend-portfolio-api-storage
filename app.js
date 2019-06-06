@@ -6,7 +6,7 @@ const connect = require('./db/connect')
 const BlogModel = require('./db/BlogPost');
 const User = require('./db/User')
 const multer = require('multer')
-
+ 
 app.use(express.static('uploads'))
 
 var storage = multer.diskStorage({
